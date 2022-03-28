@@ -1,6 +1,7 @@
-theme: jekyll-theme-minimal
+github:
+    is_project_page: false
+theme: jekyll-theme-leap-day
 title: Williams Family Church Blog
-logo: /assets/img/stain.jpg
 description: Thinking out loud. Trying to save a dying church. Christ is LORD.
 github:
   is_project_page: false
