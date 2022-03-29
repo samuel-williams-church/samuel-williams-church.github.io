@@ -1,4 +1,4 @@
-# Project Lazarus: Rebuilding dead churches
+# Project Lazarus: Rebuilding (nearly) dead churches
 
 ## Step 1: Visible Church
 ### Building
@@ -20,10 +20,3 @@
 4. Inviting family and friends to "give it a try"
 
 ## Step 2: Light on a Hill ???
-### Building
-### Congregation
-
-
-------
-
-[Home](index.md)
