@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@samuel-williams-church 
+pages-themes
+/
+merlot
+Public
+Code
+Issues
+4
+Pull requests
+3
+Actions
+Security
+Insights
+merlot/_layouts/default.html
+@parkr
+parkr Add head-custom.html to allow easier customization of the <head>
+Latest commit 1de9499 on 27 Jul 2021
+ History
+ 2 contributors
+@benbalter@parkr
+81 lines (68 sloc)  2.97 KB
+  
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -24,6 +53,7 @@
   </head>
 
   <body>
+    <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
     <div class="shell">
 
       <header>
@@ -37,12 +67,43 @@
         </span>
       </header>
 
+
+        <div id="no-downloads">
+          <span class="inner">
+          </span>
+        </div>
+
+
       <span class="banner-fix"></span>
+
 
       <section id="main_content">
         {{ content }}
       </section>
 
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p><a href="{{ site.github.absolute_url }}">Back to Home</a>t</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
   </body>
 </html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
